@@ -4,21 +4,11 @@ export default createStore({
   state() {
     return {
       zadania: [
-        {
-          id: "pierwsze",
-          tresc: "Nauczyć się Vue i robić ładne aplikacje",
-        },
-        {
-          id: "drugie",
-          tresc: "Złapać trochę praktyki",
-        },
+
       ],
       wprowadzoneZadanie: "",
       zrealizowane: [
-        {
-          id: "trzecie",
-          tresc: "Ogarnąć Vuex",
-        }
+
       ],
       brakAktywnych: false,
       brakZrealizowanych: false
