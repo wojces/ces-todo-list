@@ -1,11 +1,8 @@
 {
-  "homepage": "https://wojces.github.io/ces-todo-list/",
   "name": "ces-todo-list",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "serve": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
     "build": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build",
     "lint": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service lint"
