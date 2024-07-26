@@ -2,7 +2,7 @@
   <header>
     <nav>
       <h1>
-        <router-link to="/">Ces's TODOList</router-link>
+        <router-link to="/">TODO List</router-link>
       </h1>
       <ul>
         <li>
