@@ -8,7 +8,7 @@ const router = createRouter({
   history: createWebHistory(),
   routes: [
     { path: '/', redirect: '/aktywne' },
-    { path: '/ces-todo-list', redirect: '/aktywne' },
+    // { path: '/ces-todo-list/*', redirect: '/aktywne' },
     { path: '/aktywne', component: AktywneZadania },
     { path: '/zrealizowane', component: ZrealizowaneZadania },
     { path: '/:notFound(.*)', component: NotFound }
