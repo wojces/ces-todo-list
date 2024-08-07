@@ -5,10 +5,9 @@ import ZrealizowaneZadania from './pages/zadania/ZrealizowaneZadania.vue'
 import NotFound from './pages/nie_znaleziono/NotFound.vue'
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/ces-todo-list/'),
   routes: [
     { path: '/', redirect: '/aktywne' },
-    // { path: '/ces-todo-list/*', redirect: '/aktywne' },
     { path: '/aktywne', component: AktywneZadania },
     { path: '/zrealizowane', component: ZrealizowaneZadania },
     { path: '/:notFound(.*)', component: NotFound }

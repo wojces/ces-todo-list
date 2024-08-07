@@ -3,8 +3,8 @@
     <h2>Zrealizowane zadania</h2>
     <section id="zadania">
       <p v-if="brakZrealizowanych">
-        Obecnie nie ma zrealizowanych zadań. Przejdź do
-        <router-link to="aktywne">aktywnych zadań</router-link>i jakieś
+        Obecnie nie ma zrealizowanych zadań. Przejdź do&nbsp;
+        <router-link to="aktywne">aktywnych zadań</router-link>&nbsp;i jakieś
         zrealizuj...
       </p>
       <ul>
